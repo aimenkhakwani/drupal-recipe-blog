@@ -1,0 +1,5 @@
+name =  Simple Contact
+description = Removing the subject and checkbox from contact form.
+package = Custom Modules
+core = 7.x
+files[] = simple_contact.module

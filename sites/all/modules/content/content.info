@@ -1,0 +1,5 @@
+name =  Content
+description = Removing default author and date publishing details.
+package = Custom Modules
+core = 7.x
+files[] = content.module
