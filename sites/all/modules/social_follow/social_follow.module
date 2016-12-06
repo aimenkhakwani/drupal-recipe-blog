@@ -1,0 +1,12 @@
+<?php
+
+function social_follow_follow_networks_alter(&$networks, $uid = 0) {
+  $networks[$uid]['etsy'] = array(
+    'title' => t(''),
+    'domain' => 'etsy.com',
+  );
+  $networks[$uid]['github'] = array(
+    'title' => t(''),
+    'domain' => 'github.com',
+  );
+}

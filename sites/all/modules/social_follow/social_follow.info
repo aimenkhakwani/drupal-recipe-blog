@@ -1,0 +1,6 @@
+name = Social Follow
+description = Allows users to follow any/all social media platforms.
+package = Custom Modules
+core = 7.x
+files[] = social_follow.module
+stylesheets[all][] = social.css
