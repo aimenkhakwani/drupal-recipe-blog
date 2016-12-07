@@ -1,0 +1,13 @@
+<?php
+  function recipe_content_form_alter(&$form, &$form_state, $form_id) {
+    if($form_id == 'recipe_node_form') {
+      if($form['uid']['#value'] != 1) {
+        // print '<pre>';
+        // print_r($form['uid']['#value']);
+        // print '</pre>';
+        $form['path']['#access'] = 0;
+        $form['comment_settings']['comment']['#default_value'] = 1;
+        $form['author']['#access'] = 0;
+      }
+    }
+  }

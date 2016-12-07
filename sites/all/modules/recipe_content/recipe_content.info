@@ -1,0 +1,5 @@
+name =  Recipe Content 
+description = Removing tabs from the Recipe content type.
+package = Custom Modules
+core = 7.x
+files[] = recipe_content.module
